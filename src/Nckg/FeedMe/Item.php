@@ -39,29 +39,6 @@ class Item
     protected $description;
 
     /**
-     * @var array<string>
-     */
-    protected $categories = array();
-
-    /**
-     * @param array $categories
-     * @return $this
-     */
-    public function setCategories($categories)
-    {
-        $this->categories = $categories;
-        return $this;
-    }
-
-    /**
-     * @return array
-     */
-    public function getCategories()
-    {
-        return $this->categories;
-    }
-
-    /**
      * @param string $commentsLink
      * @return $this
      */
