@@ -1,5 +1,5 @@
 # Feed Me
-![Travis CI](https://travis-ci.org/nckg/feedme.svg?branch=master)
+[![Build Status](https://travis-ci.org/nckg/feedme.svg?branch=master)](https://travis-ci.org/nckg/feedme)
 
 ## Installation
 Simply add a dependency on `nckg/feedme` to your project's composer.json file if you use Composer to manage the dependencies of your project.
